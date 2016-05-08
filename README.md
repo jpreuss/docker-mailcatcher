@@ -1,6 +1,6 @@
 # docker-mailcatcher
 
-[![](https://badge.imagelayers.io/jpreuss/mailcatcher:latest.svg)](https://imagelayers.io/?images=jpreuss/mailcatcher:latest)
+[![](https://badge.imagelayers.io/jpreuss/mailcatcher:0.5.12.svg)](https://imagelayers.io/?images=jpreuss/mailcatcher:0.5.12)
 
 Docker image for MailCatcher based on Alpine linux. You can find images on docker hub jpreuss/mailcatcher.
 
