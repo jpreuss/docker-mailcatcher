@@ -15,6 +15,6 @@ RUN buildDeps=" \
     gem install -v $MAILCATCHER_VERSION mailcatcher --no-ri --no-rdoc && \
     apk del $buildDeps
 
-EXPOSE 25 80
+EXPOSE 1025 1080
 
-CMD ["mailcatcher", "--foreground", "--ip=0.0.0.0", "--smtp-port=25", "--http-port=80"]
+CMD ["mailcatcher", "--foreground", "--ip=0.0.0.0", "--smtp-port=1025", "--http-port=1080"]

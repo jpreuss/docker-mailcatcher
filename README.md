@@ -9,7 +9,7 @@ Docker image for MailCatcher based on Alpine linux. You can find images on docke
 To use, simply run:
 
 ```shell
-$ docker run -p 1080:80 -p 1025:25 jpreuss/mailcatcher
+$ docker run -p 1080:1080 -p 1025:1025 jpreuss/mailcatcher
 ```
 
 As a SMTP server set `localhost` with port 1025.
